@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "21222641093",
+    "firebase_url": "https://mymessenger-f2138.firebaseio.com",
+    "project_id": "mymessenger-f2138",
+    "storage_bucket": "mymessenger-f2138.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:21222641093:android:57c9ef0678b34bdc4d8fac",
+        "android_client_info": {
+          "package_name": "com.myappcompany.hardi.mymessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "21222641093-cu1b13vb3ak8j2qlc1v7kkuvhcp3v3in.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myappcompany.hardi.mymessenger",
+            "certificate_hash": "a36f6824507391e2157305b1247659b88e1c0587"
+          }
+        },
+        {
+          "client_id": "21222641093-55ppor3vdr94pcbkgapbkf1mju3d3jcs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAU91ls_XIXOYOHjyEFMSUjwPglW0uO1zg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "21222641093-55ppor3vdr94pcbkgapbkf1mju3d3jcs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
