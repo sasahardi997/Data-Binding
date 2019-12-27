@@ -67,11 +67,13 @@ public class UserAdapter extends RecyclerView.Adapter<UserAdapter.ViewHolder> {
         public TextView username;
         public ImageView profile_image;
 
+
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             username=itemView.findViewById(R.id.username);
             profile_image=itemView.findViewById(R.id.profile_image);
+
         }
     }
 }

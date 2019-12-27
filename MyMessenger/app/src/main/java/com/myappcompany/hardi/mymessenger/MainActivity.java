@@ -26,10 +26,12 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.myappcompany.hardi.mymessenger.fragments.ChatsFragment;
+import com.myappcompany.hardi.mymessenger.fragments.ProfileFragment;
 import com.myappcompany.hardi.mymessenger.fragments.UsersFragment;
 import com.myappcompany.hardi.mymessenger.model.User;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -79,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
 
         viewPagerAdapter.addFragment(new ChatsFragment(),"Chats");
         viewPagerAdapter.addFragment(new UsersFragment(),"Users");
+        viewPagerAdapter.addFragment(new ProfileFragment(),"Profile");
 
         viewPager.setAdapter(viewPagerAdapter);
 
@@ -99,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
             case R.id.logout:
                 FirebaseAuth.getInstance().signOut();
-                startActivity(new Intent(MainActivity.this,StartActivity.class));
+                startActivity(new Intent(MainActivity.this, StartActivity.class));
                 finish();
                 return  true;
         }
@@ -140,4 +143,5 @@ public class MainActivity extends AppCompatActivity {
             return titles.get(position);
         }
     }
+
 }
